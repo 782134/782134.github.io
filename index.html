@@ -573,6 +573,7 @@
                 <div class="dropdown-menu">
                     <a href="https://pan.quark.cn/s/8461f4ce173a#/list/share" download>1.21.1</a>
                     <a href="https://pan.quark.cn/s/fd328ad9b2c1#/list/share" download>1.21.3</a>
+                    <a href="https://www.sfatop.cn/" download>主官网</a>
                 </div>
             </div>
             
@@ -823,7 +824,7 @@ Minecraft Farlight [开荒阶段]】</a>
                     async function fallbackServerStatus() {
                         try {
                             // 尝试使用备用API
-                            const response = await fetch('https://mcapi.us/server/status?ip=mc8.ltd');
+                            const response = await fetch('https://mcapi.us/server/status?ip=farlight.xsmp.top');
                             if (!response.ok) {
                                 throw new Error('备用API响应错误');
                             }
